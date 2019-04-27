@@ -225,7 +225,7 @@ export default {
       this.handleCheck(targetNode)
       this.$emit('remove-tag', v)
     },
-    updateSelect (data, needCheckNode = false, setValue = false) {
+    updateSelect (data = [], needCheckNode = false, setValue = false) {
       let tempSelectedNodes = []
       let tempSelectedLabels = []
       let tempSelectedIds = []
