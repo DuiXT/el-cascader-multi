@@ -294,6 +294,9 @@ export default {
       background-color: #fff;
     }
   }
+  .el-select-dropdown__item{
+    overflow-y: scroll;
+  }
   .li-style {
     height: 34px;
     padding: 0px 20px;
